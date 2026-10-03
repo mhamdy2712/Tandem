@@ -47,56 +47,20 @@ Nothing goes through an account, nothing is stored in the cloud, and there are n
 
 ## What you can do
 
-<table>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/webcam.svg" width="36" height="36" alt=""><br><b>Phone as a webcam</b></td>
-<td valign="top">Use the phone's camera as a PC webcam in Zoom, Discord, OBS, Teams and anything that lists a camera. Rotation, torch and quality are controlled from either side.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/screen.svg" width="36" height="36" alt=""><br><b>See and control your PC</b></td>
-<td valign="top">Watch your PC screen on the phone and use it by touch: click, drag, scroll, zoom, type. Multi-monitor and rotated screens are supported. Quality adapts when you are on the internet instead of Wi-Fi.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/remote-start.svg" width="36" height="36" alt=""><br><b>Remote Start</b></td>
-<td valign="top">Switch your PC on from anywhere. Wake-on-LAN from the phone, from a small always-on **wake station** (an old phone is enough) or through the relay. Handles sleep, hibernate and shut down, and can sign in for you.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/power.svg" width="36" height="36" alt=""><br><b>Power and media</b></td>
-<td valign="top">Lock, sleep, restart or shut down. Volume, media keys, presentation remote, play the PC's sound on the phone.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/files.svg" width="36" height="36" alt=""><br><b>Files</b></td>
-<td valign="top">Browse the PC from the phone and the phone from the PC. Send files and whole folders either way, with progress.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/chat.svg" width="36" height="36" alt=""><br><b>Chat</b></td>
-<td valign="top">Notes, links, pictures and files between the two. Pictures open full screen with zoom. You choose the folder where received files are saved.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/clipboard.svg" width="36" height="36" alt=""><br><b>Shared clipboard</b></td>
-<td valign="top">Copy on one device, paste on the other.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/launcher.svg" width="36" height="36" alt=""><br><b>Launcher</b></td>
-<td valign="top">A list of your PC's programs, folders and links, with their icons, one tap from the phone.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/monitoring.svg" width="36" height="36" alt=""><br><b>PC monitoring</b></td>
-<td valign="top">CPU, GPU, memory, network, ping, disks, temperature and power, live on the phone.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/find-phone.svg" width="36" height="36" alt=""><br><b>Find my phone</b></td>
-<td valign="top">Ring it, even on silent, and see its last location on a map. Location sharing is off until you turn it on.</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/security.svg" width="36" height="36" alt=""><br><b>Safe by design</b></td>
-<td valign="top">Per-phone permissions, an audit log, an optional app PIN, and a **Pause** button that cuts the connection until you press it again. See [Security](#security-and-privacy).</td>
-</tr>
-<tr>
-<td width="190" valign="top"><img src="assets/icons/devices.svg" width="36" height="36" alt=""><br><b>Many phones, many PCs</b></td>
-<td valign="top">Pair several phones to one PC, or one phone to several PCs, and choose which one is active.</td>
-</tr>
-</table>
+| Feature | What it does |
+|:--|:--|
+| [<img src="assets/icons/webcam.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Phone as a webcam**](docs/FEATURES.md#phone-as-a-webcam) | Use the phone's camera as a PC webcam in Zoom, Discord, OBS, Teams and anything that lists a camera. Rotation, torch and quality are controlled from either side. |
+| [<img src="assets/icons/screen.svg" width="24" height="24" align="top">&nbsp;&nbsp;**See and control your PC**](docs/FEATURES.md#pc-screen-on-the-phone) | Watch your PC screen on the phone and use it by touch: click, drag, scroll, zoom, type. Multi-monitor and rotated screens are supported. Quality adapts when you are on the internet instead of Wi-Fi. |
+| [<img src="assets/icons/remote-start.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Remote Start**](docs/WAKE.md) | Switch your PC on from anywhere. Wake-on-LAN from the phone, from a small always-on **wake station** (an old phone is enough) or through the relay. Handles sleep, hibernate and shut down, and can sign in for you. |
+| [<img src="assets/icons/power.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Power and media**](docs/FEATURES.md#pc-control) | Lock, sleep, restart or shut down. Volume, media keys, presentation remote, play the PC's sound on the phone. |
+| [<img src="assets/icons/files.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Files**](docs/FEATURES.md#files) | Browse the PC from the phone and the phone from the PC. Send files and whole folders either way, with progress. |
+| [<img src="assets/icons/chat.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Chat**](docs/FEATURES.md#chat) | Notes, links, pictures and files between the two. Pictures open full screen with zoom. You choose the folder where received files are saved. |
+| [<img src="assets/icons/clipboard.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Shared clipboard**](docs/FEATURES.md#clipboard) | Copy on one device, paste on the other. |
+| [<img src="assets/icons/launcher.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Launcher**](docs/FEATURES.md#launcher) | A list of your PC's programs, folders and links, with their icons, one tap from the phone. |
+| [<img src="assets/icons/monitoring.svg" width="24" height="24" align="top">&nbsp;&nbsp;**PC monitoring**](docs/FEATURES.md#pc-monitoring) | CPU, GPU, memory, network, ping, disks, temperature and power, live on the phone. |
+| [<img src="assets/icons/find-phone.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Find my phone**](docs/FEATURES.md#find-my-phone-and-location) | Ring it, even on silent, and see its last location on a map. Location sharing is off until you turn it on. |
+| [<img src="assets/icons/security.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Safe by design**](SECURITY.md) | Per-phone permissions, an audit log, an optional app PIN, and a **Pause** button that cuts the connection until you press it again. |
+| [<img src="assets/icons/devices.svg" width="24" height="24" align="top">&nbsp;&nbsp;**Many phones, many PCs**](docs/FEATURES.md#several-phones-and-pcs) | Pair several phones to one PC, or one phone to several PCs, and choose which one is active. |
 
 More detail on every feature: [docs/FEATURES.md](docs/FEATURES.md).
 
