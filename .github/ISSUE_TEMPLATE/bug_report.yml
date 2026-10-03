@@ -1,0 +1,86 @@
+name: Bug report
+description: Something does not work as it should
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. A few details help a lot. Please do not include passwords, pairing codes or private files.
+        For a **security problem**, do not use this form: see [SECURITY.md](https://github.com/mhamdy2712/Tandem/blob/main/SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: "I pressed Wake PC and ..."
+    validations:
+      required: true
+  - type: input
+    id: pc_version
+    attributes:
+      label: Tandem version on the PC
+      description: Windows Settings → Apps → Installed apps → Tandem
+      placeholder: "1.0.1"
+    validations:
+      required: true
+  - type: input
+    id: phone_version
+    attributes:
+      label: Tandem version on the phone
+      description: Phone Settings → Apps → Tandem → App info
+      placeholder: "1.0.1"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 23H2"
+  - type: input
+    id: android
+    attributes:
+      label: Phone model and Android version
+      placeholder: "Pixel 8, Android 15"
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it happen?
+      options:
+        - At home (same Wi-Fi)
+        - Away from home (through the relay)
+        - Both
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part?
+      multiple: true
+      options:
+        - Installing / pairing
+        - Connection
+        - Camera / virtual camera
+        - PC screen
+        - Phone screen
+        - Remote Start / wake
+        - Files
+        - Chat
+        - Clipboard
+        - Launcher
+        - Monitoring
+        - Security / permissions
+        - Something else
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
+      description: You can drag images here.

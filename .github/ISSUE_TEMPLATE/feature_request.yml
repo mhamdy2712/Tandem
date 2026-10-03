@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest something Tandem could do
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation, not only the solution.
+      placeholder: "When I am away from home I would like to ..."
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Tandem to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do today instead?
+  - type: dropdown
+    id: side
+    attributes:
+      label: Where would it live?
+      options:
+        - PC app
+        - Phone app
+        - Both
+        - Not sure

@@ -1,0 +1,9 @@
+# local release staging and editor files
+release/
+*.exe
+*.apk
+*.aab
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

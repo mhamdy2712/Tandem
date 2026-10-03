@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://github.com/mhamdy2712/Tandem/blob/main/SECURITY.md
+    about: Please do not open a public issue. Read how to report it privately.
+  - name: Questions and help
+    url: https://github.com/mhamdy2712/Tandem/blob/main/docs/TROUBLESHOOTING.md
+    about: Check the troubleshooting guide and FAQ first.
+  - name: Write to the author
+    url: mailto:mhamdy2712@gmail.com
+    about: For anything private, or just to say hello.

@@ -1,0 +1,55 @@
+Tandem Freeware License
+
+Copyright (c) 2026 mhamdy2712. All rights reserved.
+
+This license applies to the Tandem software (the Windows application, the Android
+application, the wake station application and the relay server program) as distributed
+in the Releases of this repository, together with the documentation and images in this
+repository.
+
+1. Permission to use.
+   You may download, install and use Tandem free of charge for personal, non-commercial
+   purposes, on devices that you own or are authorised to use.
+
+2. Source code.
+   The source code of Tandem is not published and is not licensed to you by this document.
+
+3. What you may not do.
+   Unless you have written permission from the copyright holder, you may not:
+   a. sell, rent, lease or sublicense Tandem, or charge for access to it;
+   b. modify Tandem, or create derivative works from it;
+   c. reverse engineer, decompile or disassemble Tandem, except to the extent that this
+      restriction is prohibited by law;
+   d. redistribute Tandem in modified form, or present it as your own work;
+   e. remove or alter any copyright, trademark or attribution notice.
+
+4. Redistribution of unmodified copies.
+   You may share the unmodified installer and APK exactly as published in the Releases of
+   this repository, provided you keep this license with them and do not charge for them.
+
+5. Privacy.
+   Tandem does not collect personal data on any server operated by the author. See the
+   privacy policy at https://mhamdy2712.github.io/Tandem/privacy.html for details.
+
+6. No warranty.
+   TANDEM IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+   BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+   AND NON-INFRINGEMENT. YOU USE IT AT YOUR OWN RISK. Tandem can control a computer and
+   read files on a phone when you tell it to; you are responsible for pairing it only with
+   devices you trust and for the permissions you grant.
+
+7. Limitation of liability.
+   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. Third-party components.
+   Tandem includes third-party components that are licensed under their own terms
+   (for example the Android platform libraries, ML Kit barcode scanning and the Rust and
+   JavaScript libraries it is built with). Those terms apply to those components.
+
+9. Termination.
+   This license ends automatically if you break any of its terms. When it ends you must
+   stop using Tandem and delete your copies.
+
+Contact: mhamdy2712@gmail.com
