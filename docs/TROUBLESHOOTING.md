@@ -30,6 +30,19 @@ Start with the quick checks, then find your symptom.
 ## Wake PC does nothing
 Go through the checklist in [WAKE.md](WAKE.md#setup-checklist): cable, network card setting, magic packet, Fast Startup, and the BIOS option. A wake station at home makes it far more reliable.
 
+## The connection drops when the phone's screen turns off, or when I close the app
+Phones save battery by stopping apps in the background. Tandem shows a card on its home screen when it finds the cause on your phone, with a button that opens the right setting. The usual causes:
+
+- **Battery Saver is on.** Turn it off, or keep it on and allow Tandem below.
+- **Battery optimisation.** Allow Tandem to ignore it (the card's *Allow* button), or in Android Settings → Apps → Tandem → Battery choose **Unrestricted**.
+- **Your phone maker's own power manager.** This is the most common one:
+  - **OPPO, realme, OnePlus (ColorOS / OxygenOS):** Settings → Apps → Tandem → Battery usage → **Launch settings**. Turn **Manage automatically** off, then turn on **Auto-launch**, **Secondary launch** and **Run in background**.
+  - **Xiaomi, Redmi, POCO:** Security → Permissions → **Autostart**, switch Tandem on. Also set Battery saver for Tandem to **No restrictions**.
+  - **Samsung:** Settings → Battery → Background usage limits → remove Tandem from *Sleeping apps*.
+  - **Vivo / iQOO:** Settings → Battery → Background power consumption → allow Tandem. Also allow auto-start.
+  - **Huawei / Honor:** Settings → Battery → App launch → Tandem → manage manually and allow all three.
+- Closing the app from the recent-apps list is fine on most phones. On some it stops Tandem completely; the settings above prevent that.
+
 ## The phone says "not on this phone" / "Not saved" for a chat file
 That message arrived before the file could be sent, or you were offline when it was sent. Files in chat are only transferred when the phone and PC are connected. Send it again.
 
