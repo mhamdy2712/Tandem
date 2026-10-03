@@ -26,10 +26,10 @@ If the PC is already on but Tandem is closed, the same request makes Tandem star
 
 The **Remote Start** page in the PC app checks these for you and shows a tick for each:
 
-- ✅ **Connected by network cable.**
-- ✅ **The network card may wake the PC.**
-- ✅ **Magic packet wake-up is on.**
-- ✅ **Fast Startup is off.** Windows' Fast Startup turns "shut down" into a half-hibernation that many network cards cannot wake from.
+- **Connected by network cable.**
+- **The network card may wake the PC.**
+- **Magic packet wake-up is on.**
+- **Fast Startup is off.** Windows' Fast Startup turns "shut down" into a half-hibernation that many network cards cannot wake from.
 
 Then, **once, in the PC's BIOS/UEFI** (Windows cannot check this): turn on **Wake on LAN** (also called *Power on by PCI-E* or *PCIe wake*), and turn off **ErP / EuP** if your BIOS has it.
 
