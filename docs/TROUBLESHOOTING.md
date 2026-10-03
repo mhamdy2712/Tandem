@@ -40,7 +40,7 @@ Phones save battery by stopping apps in the background. Tandem shows a card on i
   - **Xiaomi, Redmi, POCO:** Security → Permissions → **Autostart**, switch Tandem on. Also set Battery saver for Tandem to **No restrictions**.
   - **Samsung:** Settings → Battery → Background usage limits → remove Tandem from *Sleeping apps*.
   - **Vivo / iQOO:** Settings → Battery → Background power consumption → allow Tandem. Also allow auto-start.
-  - **Huawei / Honor:** Settings → Battery → App launch → Tandem → manage manually and allow all three.
+  - **Honor (MagicOS) and Huawei:** Settings → Battery → **App launch** (on some versions: Settings → Apps → App launch) → find **Tandem** → turn **Manage automatically** off → turn on **Auto-launch**, **Secondary launch** and **Run in background**. Then, in Settings → Battery, make sure Tandem is not in the list of apps that are closed when the screen is off.
 - Closing the app from the recent-apps list is fine on most phones. On some it stops Tandem completely; the settings above prevent that.
 
 ## The phone says "not on this phone" / "Not saved" for a chat file
