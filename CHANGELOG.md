@@ -1,4 +1,4 @@
-# Changelog
+﻿# Changelog
 
 All notable changes to Tandem. The newest version is first. Versions follow `major.minor.patch`.
 
@@ -14,6 +14,8 @@ All notable changes to Tandem. The newest version is first. Versions follow `maj
 - **Stop sharing from the phone.** The *Phone Screen* tile switches to *Stop sharing* while the phone screen is shared.
 - **Phone screen on the PC is view-only** in this version.
 - **Better PC screen on the phone**: two-finger pan, + and − zoom buttons, up to 6× zoom; when the keyboard opens the view moves to the place you clicked and a bar above the keyboard shows what you are typing.
+- **Stays connected with the screen off.** Wi-Fi is kept awake while Tandem runs, and a card on the phone's home screen explains and fixes what makes Android cut the connection: Battery Saver, battery optimisation, background restrictions, and the auto-launch settings of OPPO, realme, OnePlus, Honor, Huawei, Xiaomi, Samsung and Vivo phones.
+- **Chat on the phone looks like a chat.** Files are cards with a type icon, name, size and an Open button; pictures open full screen with zoom; days are separated with Today and Yesterday.
 - **Faster over the internet.** The PC screen uses a smaller, lighter picture (1280×720, about 1.8 Mbit/s, 30 fps) when the phone is away from your Wi-Fi.
 
 ### Fixed
@@ -38,3 +40,4 @@ First public release.
 - Many phones to one PC and one phone to many PCs.
 - Security: end-to-end encryption, keys sealed with DPAPI and Android Keystore, per-phone permissions, audit log, optional app PIN.
 - Windows installer and Android app.
+
