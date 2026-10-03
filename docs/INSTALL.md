@@ -30,14 +30,15 @@ Tandem listens for your phone on your local network. Windows Firewall may ask wh
 
 Pick whichever is easier.
 
-### A. From the PC app (easiest)
+### From the PC app
+The Android app is **inside the PC installer**, so there is nothing else to download.
 1. In Tandem on the PC, press **Install Tandem on my phone**. A code appears.
 2. Scan it with your **phone's camera app**. The phone opens a page that is served by your own PC, so nothing is downloaded from the internet.
 3. If nothing happens when you tap **Download**, the page is probably open inside another app. Open it in **Chrome** instead (menu → *Open in Chrome*), or type the address shown under the code into Chrome.
 4. Open the downloaded `Tandem.apk`.
 
-### B. Download the APK directly
-Download **[Tandem.apk](https://github.com/mhamdy2712/Tandem/releases/latest/download/Tandem.apk)** on the phone and open it.
+### Backup: the APK file
+If you cannot reach the PC from the phone, the same app is attached to every [release](https://github.com/mhamdy2712/Tandem/releases/latest) as `Tandem.apk`. Download it on the phone and open it.
 
 ### Android will ask a few things
 
@@ -72,7 +73,7 @@ The value must match the one in the release notes. If it does not, do not run th
 ## Updating and uninstalling
 
 - **Update the PC app:** run the newest `Tandem-Setup.exe`. It replaces the old version and keeps your pairings and settings.
-- **Update the phone app:** install the newest `Tandem.apk` over the old one. Your pairings stay.
+- **Update the phone app:** after updating the PC app, press **Install Tandem on my phone** again and install over the old one. Your pairings stay.
 - **Uninstall the PC app:** Windows **Settings → Apps → Installed apps → Tandem → Uninstall**.
 - **Uninstall the phone app:** press and hold the Tandem icon → App info → Uninstall.
 - To remove a pairing without uninstalling, use **Forget phone** on the PC, or **Forget** on the phone.

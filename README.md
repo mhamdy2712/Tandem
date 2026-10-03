@@ -19,8 +19,6 @@
 <p align="center">
   <a href="https://github.com/mhamdy2712/Tandem/releases/latest/download/Tandem-Setup.exe"><b>Download for Windows</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/mhamdy2712/Tandem/releases/latest/download/Tandem.apk"><b>Download for Android</b></a>
-  &nbsp;·&nbsp;
   <a href="docs/INSTALL.md">Install guide</a>
   &nbsp;·&nbsp;
   <a href="https://mhamdy2712.github.io/Tandem/">Website</a>
@@ -67,7 +65,7 @@ More detail on every feature: [docs/FEATURES.md](docs/FEATURES.md).
 ## Get started in three steps
 
 1. **Install Tandem on your PC.** Download [`Tandem-Setup.exe`](https://github.com/mhamdy2712/Tandem/releases/latest/download/Tandem-Setup.exe) and run it. It installs into your own user folder and creates a Start menu shortcut.
-2. **Install the Android app.** In the PC app press **Install Tandem on my phone** and scan the code with your phone's camera, or download [`Tandem.apk`](https://github.com/mhamdy2712/Tandem/releases/latest/download/Tandem.apk) yourself. Android will ask you to allow the install once.
+2. **Install the Android app.** You do not download it separately: it comes inside the PC installer. In the PC app press **Install Tandem on my phone** and scan the code with your phone's camera. Android will ask you to allow the install once.
 3. **Pair.** Open Tandem on the phone, tap Pair and scan the code on the PC. Done: they now reconnect on their own.
 
 Step-by-step with pictures, including the screens Windows and Android show for apps that are not from their stores: **[docs/INSTALL.md](docs/INSTALL.md)**.
